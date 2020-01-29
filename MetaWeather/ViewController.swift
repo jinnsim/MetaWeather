@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+         let api = MetaWetherAPI(woeid: 1132599)
+         NetworkHelper.shared.requestApi(MetaWeatherModel.self, url: api.url) { (result) in
+                   print(result) 
+         }
     }
 
 
