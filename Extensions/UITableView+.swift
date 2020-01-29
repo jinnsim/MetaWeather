@@ -39,6 +39,7 @@ class UITableViewBuilder: BuilderType{
         tableView.translatesAutoresizingMaskIntoConstraints = false
         tableView.delegate = self.delegate
         tableView.dataSource = self.dataSource
+        
         return tableView
     }
 }

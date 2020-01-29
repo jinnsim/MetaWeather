@@ -79,6 +79,7 @@ extension ViewController: UITableViewDataSource{
         }
          let item = weathers[indexPath.section].consolidated_weather[indexPath.row]
         cell.item = item
+        
         return cell
     }
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41F3C4C423E1C13F002BF2CC /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F3C4C323E1C13F002BF2CC /* String+.swift */; };
 		F405519E23E1535900029193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405519D23E1535900029193 /* AppDelegate.swift */; };
 		F40551A223E1535900029193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551A123E1535900029193 /* ViewController.swift */; };
 		F40551A723E1535B00029193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40551A623E1535B00029193 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41F3C4C323E1C13F002BF2CC /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		F405519A23E1535900029193 /* MetaWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F405519D23E1535900029193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F40551A123E1535900029193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				F40551CE23E1783A00029193 /* Layout+.swift */,
 				F40551D223E184B400029193 /* UIImageView+.swift */,
 				F40551D423E18A2600029193 /* UILabel+.swift */,
+				41F3C4C323E1C13F002BF2CC /* String+.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				F40551D123E1838900029193 /* WeatherTableViewCell.swift in Sources */,
 				F40551D523E18A2600029193 /* UILabel+.swift in Sources */,
 				F405519E23E1535900029193 /* AppDelegate.swift in Sources */,
+				41F3C4C423E1C13F002BF2CC /* String+.swift in Sources */,
 				F40551C423E1560C00029193 /* MetaWeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
