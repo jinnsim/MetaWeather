@@ -15,6 +15,12 @@
 		F40551C123E1544B00029193 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551C023E1544B00029193 /* NetworkHelper.swift */; };
 		F40551C423E1560C00029193 /* MetaWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551C323E1560C00029193 /* MetaWeatherModel.swift */; };
 		F40551C723E15DE600029193 /* MetaWeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551C623E15DE600029193 /* MetaWeatherAPI.swift */; };
+		F40551CA23E1713F00029193 /* BuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551C923E1713F00029193 /* BuilderProtocol.swift */; };
+		F40551CD23E172A900029193 /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551CC23E172A900029193 /* UITableView+.swift */; };
+		F40551CF23E1783A00029193 /* Layout+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551CE23E1783A00029193 /* Layout+.swift */; };
+		F40551D123E1838900029193 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551D023E1838900029193 /* WeatherTableViewCell.swift */; };
+		F40551D323E184B400029193 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551D223E184B400029193 /* UIImageView+.swift */; };
+		F40551D523E18A2600029193 /* UILabel+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551D423E18A2600029193 /* UILabel+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,12 @@
 		F40551C023E1544B00029193 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		F40551C323E1560C00029193 /* MetaWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaWeatherModel.swift; sourceTree = "<group>"; };
 		F40551C623E15DE600029193 /* MetaWeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaWeatherAPI.swift; sourceTree = "<group>"; };
+		F40551C923E1713F00029193 /* BuilderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderProtocol.swift; sourceTree = "<group>"; };
+		F40551CC23E172A900029193 /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		F40551CE23E1783A00029193 /* Layout+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Layout+.swift"; sourceTree = "<group>"; };
+		F40551D023E1838900029193 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		F40551D223E184B400029193 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		F40551D423E18A2600029193 /* UILabel+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,8 @@
 		F405519123E1535900029193 = {
 			isa = PBXGroup;
 			children = (
+				F40551CB23E1728700029193 /* Extensions */,
+				F40551C823E1711E00029193 /* Common */,
 				F40551BF23E1542200029193 /* Shared */,
 				F405519C23E1535900029193 /* MetaWeather */,
 				F40551B323E1535B00029193 /* MetaWeatherTests */,
@@ -84,6 +98,7 @@
 			children = (
 				F405519D23E1535900029193 /* AppDelegate.swift */,
 				F40551A123E1535900029193 /* ViewController.swift */,
+				F40551D023E1838900029193 /* WeatherTableViewCell.swift */,
 				F40551A623E1535B00029193 /* Assets.xcassets */,
 				F40551A823E1535B00029193 /* LaunchScreen.storyboard */,
 				F40551AB23E1535B00029193 /* Info.plist */,
@@ -124,6 +139,25 @@
 				F40551C623E15DE600029193 /* MetaWeatherAPI.swift */,
 			);
 			path = APIs;
+			sourceTree = "<group>";
+		};
+		F40551C823E1711E00029193 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F40551C923E1713F00029193 /* BuilderProtocol.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F40551CB23E1728700029193 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F40551CC23E172A900029193 /* UITableView+.swift */,
+				F40551CE23E1783A00029193 /* Layout+.swift */,
+				F40551D223E184B400029193 /* UIImageView+.swift */,
+				F40551D423E18A2600029193 /* UILabel+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +261,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F40551C723E15DE600029193 /* MetaWeatherAPI.swift in Sources */,
+				F40551CF23E1783A00029193 /* Layout+.swift in Sources */,
 				F40551C123E1544B00029193 /* NetworkHelper.swift in Sources */,
 				F40551A223E1535900029193 /* ViewController.swift in Sources */,
+				F40551D323E184B400029193 /* UIImageView+.swift in Sources */,
+				F40551CD23E172A900029193 /* UITableView+.swift in Sources */,
+				F40551CA23E1713F00029193 /* BuilderProtocol.swift in Sources */,
+				F40551D123E1838900029193 /* WeatherTableViewCell.swift in Sources */,
+				F40551D523E18A2600029193 /* UILabel+.swift in Sources */,
 				F405519E23E1535900029193 /* AppDelegate.swift in Sources */,
 				F40551C423E1560C00029193 /* MetaWeatherModel.swift in Sources */,
 			);
