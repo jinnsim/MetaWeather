@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F405519E23E1535900029193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405519D23E1535900029193 /* AppDelegate.swift */; };
-		F40551A023E1535900029193 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405519F23E1535900029193 /* SceneDelegate.swift */; };
 		F40551A223E1535900029193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551A123E1535900029193 /* ViewController.swift */; };
-		F40551A523E1535900029193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40551A323E1535900029193 /* Main.storyboard */; };
 		F40551A723E1535B00029193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40551A623E1535B00029193 /* Assets.xcassets */; };
 		F40551AA23E1535B00029193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40551A823E1535B00029193 /* LaunchScreen.storyboard */; };
 		F40551B523E1535B00029193 /* MetaWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40551B423E1535B00029193 /* MetaWeatherTests.swift */; };
@@ -32,9 +30,7 @@
 /* Begin PBXFileReference section */
 		F405519A23E1535900029193 /* MetaWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F405519D23E1535900029193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F405519F23E1535900029193 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F40551A123E1535900029193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F40551A423E1535900029193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F40551A623E1535B00029193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F40551A923E1535B00029193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F40551AB23E1535B00029193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,9 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				F405519D23E1535900029193 /* AppDelegate.swift */,
-				F405519F23E1535900029193 /* SceneDelegate.swift */,
 				F40551A123E1535900029193 /* ViewController.swift */,
-				F40551A323E1535900029193 /* Main.storyboard */,
 				F40551A623E1535B00029193 /* Assets.xcassets */,
 				F40551A823E1535B00029193 /* LaunchScreen.storyboard */,
 				F40551AB23E1535B00029193 /* Info.plist */,
@@ -215,7 +209,6 @@
 			files = (
 				F40551AA23E1535B00029193 /* LaunchScreen.storyboard in Resources */,
 				F40551A723E1535B00029193 /* Assets.xcassets in Resources */,
-				F40551A523E1535900029193 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +231,6 @@
 				F40551A223E1535900029193 /* ViewController.swift in Sources */,
 				F405519E23E1535900029193 /* AppDelegate.swift in Sources */,
 				F40551C423E1560C00029193 /* MetaWeatherModel.swift in Sources */,
-				F40551A023E1535900029193 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +253,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F40551A323E1535900029193 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F40551A423E1535900029193 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F40551A823E1535B00029193 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
